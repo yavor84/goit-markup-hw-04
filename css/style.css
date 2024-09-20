@@ -301,6 +301,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 .team-item-social-list {
@@ -308,7 +309,6 @@ img {
   gap: 24px;
   justify-content: center;
   align-items: center;
-  margin-top: 8px;
 }
 
 .social-item-link {
@@ -431,4 +431,29 @@ img {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
+}
+
+.social-item-link.footer:hover,
+.social-item-link.footer:focus {
+  background-color: #31d0aa;
+}
+
+.footer-social-box-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
 }
